@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>MySkin</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+	<main class="main"> 
+		<div class="container">
+			<div class="sidebar">
+				<h1>
+				<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M22,12.184V11a3,3,0,0,0-2-2.816A14.458,14.458,0,0,0,18.15.809a1.948,1.948,0,0,0-1.717-.818,2.035,2.035,0,0,0-1.664,1.074C14,2.476,13.24,3,11.962,3H10A5.676,5.676,0,0,0,4.061,8.165,3,3,0,0,0,2,11v1.184A3,3,0,0,0,0,15v4a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V15A3,3,0,0,0,22,12.184ZM10,5h1.962a4.952,4.952,0,0,0,4.566-3.022A12.409,12.409,0,0,1,18,8H6.131A3.658,3.658,0,0,1,10,5ZM4,11a1,1,0,0,1,1-1H19a1,1,0,0,1,1,1v1H4Zm18,8a3,3,0,0,1-3,3H5a3,3,0,0,1-3-3V15a1,1,0,0,1,1-1H21a1,1,0,0,1,1,1Z"/></svg>
+				my<span>skin</span></h1>
+
+				<ul class="steps">
+					<li class="active">
+						<span class="label">Step 01</span>
+						Endereço					
+					</li>
+					<li>
+						<span class="label">Step 02</span>
+						Pagamento					
+					</li>
+					<li>
+						<span class="label">Step 03</span>
+						Resumo					
+					</li>
+				</ul>
+
+			</div>
+
+			<div class="cart">
+				<div class="shipping">
+					<div class="shipping-header">
+						<div class="step">Step 01</div>
+						<h2>Endereço</h2>
+						<p>Onde você deseja receber o seu pedido?</p>
+					</div>
+
+					<div class="shipping-form">
+						<form class="address">
+							<div>
+								<label>CEP</label>
+								<input type="text" id="cep" minlength="9">
+								<p id="msg" class="small">Insira seu CEP para encontrarmos o endereço.</p>
+								<p id="erro" class="small"></p>
+							</div>
+
+							<div class="grid">
+								<div>
+									<label>Nome*</label>
+									<input type="text" id="nome" name="nome">
+								</div>
+								<div>
+									<label>Sobrenome*</label>
+									<input type="text" id="sobrenome" name="sobrenome">
+								</div>
+							</div>
+
+							<div>
+								<label>Endereço</label>
+								<input type="text" id="endereco" name="endereco">
+							</div>
+
+							<div class="grid">
+								<div>
+									<label>Bairro</label>
+									<input type="text" id="bairro" name="bairro">
+								</div>
+								<div>
+									<label>Número</label>
+									<input type="text" id="numero" name="numero">
+								</div>
+							</div>	
+
+							<div class="grid">
+								<div>
+									<label>Cidade</label>
+									<input type="text" id="cidade" name="cidade">
+								</div>
+								<div>
+									<label>Estado</label>
+									<input type="text" id="estado" name="estado">
+								</div>
+							</div>					
+
+							<div>
+								<label>Telefone</label>
+								<input type="text" id="tel" name="tel" maxlength="15" pattern="\(\d{2}\)\s*\d{5}-\d{4}">
+							</div>
+						</form>
+					</div>
+
+					<div class="shipping-footer">
+						<button class="btn-simple"><?xml version="1.0" encoding="UTF-8"?>
+							<svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512"><path d="M19,11H9l3.29-3.29a1,1,0,0,0,0-1.42,1,1,0,0,0-1.41,0l-4.29,4.3A2,2,0,0,0,6,12H6a2,2,0,0,0,.59,1.4l4.29,4.3a1,1,0,1,0,1.41-1.42L9,13H19a1,1,0,0,0,0-2Z"/></svg> Voltar para loja</button>
+						<button class="btn">Ir para pagamento</button>
+					</div>
+				</div>
+
+				<div class="summary">
+					<div class="summary-header">
+						<h3>Resumo</h3>
+						<p class="quantity">(2 itens)</p>
+					</div>
+
+					<div class="list">
+						<div class="item">
+							<div class="image">
+								<img src="images/suncream.webp" alt="Daily SUN CREAM SPF 30PA+++">
+							</div>
+
+							<div class="info">
+								<h5>Daily SUN CREAM SPF 30PA+++</h5>
+								<span class="qtd">Quantidade: 1</span>
+								<span class="price">R$109,99</span>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="image">
+								<img src="images/multi-use.webp" alt="Daily SUN CREAM SPF 30PA+++">
+							</div>
+
+							<div class="info">
+								<h5>MULTI-USE COLLAGEN MIST</h5>
+								<span class="qtd">Quantidade: 1</span>
+								<span class="price">R$59,99</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="total">
+						<span>Total a pagar</span>
+						<span class="price">R$ 169,98</span>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="js/api-cep.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+</body>
+</html>
